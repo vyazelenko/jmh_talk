@@ -4,7 +4,7 @@ plugins {
 }
 
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
 project.sourceCompatibility = 1.7
@@ -15,5 +15,5 @@ dependencies {
 }
 
 jmh {
-    jmhVersion = '1.11.1'
+    jmhVersion = '1.11.3'
 }
